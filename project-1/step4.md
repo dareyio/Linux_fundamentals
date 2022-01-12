@@ -1,20 +1,8 @@
 # Viewing Contents of a File
-### cat Command
-**cat** spits the contents of a file onto your terminal.  
-`cat lorem`{{execute}}  
+There is a file named dummy-doc in your current directory, check out its content (Hint: you could using the cat command)  
   
-### head
-Outputs the first 10 lines of a file.  
-`head lorem`{{execute}}  
+>> What's the first word of the 7th line from the top in the dummy-doc file? <<
+=== Darey  
   
-### tail
-Opposite of tail (obviously huh?). Outputs the last ten lines of a file.  
-`tail lorem`{{execute}}
-
-### more
-Spits contents of a file in bits, allowing you to scroll through the contents in consummable portions. Particularly handy for going through a large file with hundreds of lines.  
-`more lorem`{{execute}}  
-  
-### less
-Does the exact thing with **more**, but starts out with **less** number of lines.  
-`less lorem`{{execute}}
+>> What is the 3rd line from the bottom in the dummy-doc file?<<  
+=== PBL
