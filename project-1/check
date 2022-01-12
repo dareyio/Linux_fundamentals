@@ -1,5 +1,0 @@
-if [[ ! -d pbl ]]; then
-    echo "You have not created this directory"
-else
-    echo "Well done, please proceed"
-fi
