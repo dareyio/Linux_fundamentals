@@ -1,1 +1,0 @@
-Hello there, welcome to your third scenario! We've arranged a collection of tasks to test your understanding of some basic Linux commands. Do not feel bad if you do not do well on your first try, you can retake this scenario as many times as you want!
