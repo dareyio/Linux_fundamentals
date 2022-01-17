@@ -1,6 +1,6 @@
 Syntax for creating a new user is `useradd <new_user>`
 
-`useradd testing` {{execute}}
+`useradd testing`{{execute}}
 
 
 

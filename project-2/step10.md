@@ -4,7 +4,7 @@ To change the password of an existinng user, the syntax is
 
 Let us change the password of the user `testing`
 
-`passwd testing` {{execute}}
+`passwd testing`{{execute}}
 
 ***Note: Use `sudo` at the start of your command if you get an error message***
 

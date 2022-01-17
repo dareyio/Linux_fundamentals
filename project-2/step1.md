@@ -28,7 +28,7 @@ The ***export*** command is used to set an environment variable so as to be reme
 
 e.g
 
-`echo ${AWS_DEFAULT_REGION}` {{execute}}
+`echo ${AWS_DEFAULT_REGION}`{{execute}}
 
 ### **env** command
 The `env` command lists your current environment variables and their settings
@@ -41,4 +41,4 @@ The `env` command lists your current environment variables and their settings
 
 ***e.g.***
 
-***`man ls`*** {{execute}}
+***`man ls`***{{execute}}
