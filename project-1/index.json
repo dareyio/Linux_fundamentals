@@ -6,42 +6,41 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Getting Help",
         "text": "step1.md",
         "background": "step2.sh"
       },
       {
-        "title": "Step 2",
+        "title": "Files and Filesystem",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Files and Filesystem Cont'd",
         "text": "step3.md",
         "background": "create3.sh"
       },
       {
-        "title": "Step 4",
+        "title": "Viewing Contents of a File",
         "text": "step4.md",
         "background": "step4.sh"
       },
       {
-        "title": "Step 5",
+        "title": "File Attributes",
         "text": "step5.md",
         "background": "step5.sh"
       },
       {
-        "title": "Step 6",
+        "title": "Side Task",
         "text": "step6.md",
         "background": "step6.sh"
       },
       {
-        "title": "Step 7",
+        "title": "Side Task Cont'd",
         "text": "step7.md"
       },
       {
-        "title": "Side Task",
-        "text": "step8.md",
-        "background": "sidetask.sh"
+        "title": "Answers",
+        "text": "answers.md"
       }
     ],
     "intro": {
