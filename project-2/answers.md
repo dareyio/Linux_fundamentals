@@ -6,7 +6,6 @@ su testing
 
 exit
 
-
 ip address
 
 route
