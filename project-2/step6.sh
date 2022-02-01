@@ -1,1 +1,5 @@
-sudo passwd testing
+ip address
+
+route
+
+ping -c4 google.com
