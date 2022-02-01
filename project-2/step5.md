@@ -1,1 +1,0 @@
->> set password for the new user `testing`

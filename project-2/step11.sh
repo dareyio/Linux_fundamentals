@@ -1,2 +1,0 @@
-su testing
-exit
