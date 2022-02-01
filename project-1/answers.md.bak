@@ -34,21 +34,21 @@
 4. To show the first 5 lines, use the **head** command.
 5. **cat** command displays the contents of a file
 6. To create a file, use the `{cat > file}`. Type in the contents of the file and press in Ctrl + C when done to save.
-7. To display the last line of a file, use `{taile -n 1 file1}`
+7. To display the last line of a file, use `{tail -n 1 file1}`
 8. <esc>:wq will save the contents of the file and quit from the vi editor
    
 ## File Attributes
 1. To change the ownership, use `{chown dare:developers darey}`
-2. mkdir docs
+mkdir docs
    - cp dummy-doc docs
    - chown -R dare:developers docs
-3. chmod 444 darey
-4. chmod u+w darey
-5. chmod +x darey
-6. chmod 700 docs
-7. Permission number for read and execute is **5**, read = 4 and write = 1.
-8. **744** 7 for owner, 4 for group and others
-9. None of the above. The permission mode **800** would return an error
-10. To allow execution permission on myapp, add the permission to all the users. `{chmod +x /usr/local/bin/myapp}`
-11. Use the **find** command to locate the required file `{find . -name contents}`. The expected text is **awesome!**
-12. The command finds all files and directories whose names start with **file** recursively starting from /.
+1. chmod 444 darey
+2. chmod u+w darey
+3. chmod +x darey
+4. chmod 700 docs
+5. Permission number for read and execute is **5**, read = 4 and write = 1.
+6. **744** 7 for owner, 4 for group and others
+7. None of the above. The permission mode **800** would return an error
+8.  To allow execution permission on myapp, add the permission to all the users. `{chmod +x /usr/local/bin/myapp}`
+9.  Use the **find** command to locate the required file `{find . -name contents}`. The expected text is **awesome!**
+10. The command finds all files and directories whose names start with **file** recursively starting from /.
