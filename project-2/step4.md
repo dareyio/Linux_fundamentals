@@ -1,7 +1,8 @@
-- Create a user called testing
+Syntax for creating a new user is `useradd <new_user>`
 
-- Set the password of the new user
-
-- Login to the terminal using the new user account credentials
+`useradd testing` {{execute}}
 
 
+
+
+***Note: Use `sudo` at the start of your command if you get an error message below:***
