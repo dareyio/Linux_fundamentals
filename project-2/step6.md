@@ -1,11 +1,6 @@
-Syntax to set a password is `passwd <new_user>`
+- Check the IP address and netmask information of your system
 
-Input a password you will remember easily. Do not worry that you cannot see what you type. This is silent(what the behaviour is called in Linux) because of security purposes.
+- Check the default route information of your system
 
-
-`passwd testing` {{execute}}
-
-
-
-***Note: Use `sudo` at the start of your command if you get an error message***
+- Ping `www.google.com` from your system to see if you access google servers from your terminal. Makse sure you define the number of packets to send to the google server
 
