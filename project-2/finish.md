@@ -1,5 +1,5 @@
 ### **Side-Self Study**
-Read on the various flags available for each of the commands(can be found using the ***man*** command).
+Read on the various flags available for linux commands(can be found using the ***man*** command).
 
 e.g `man ping`
 
