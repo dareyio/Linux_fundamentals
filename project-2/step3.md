@@ -1,34 +1,40 @@
-# System Control
+# Network
 
->> What does *useradd* command do?
+>> What does the *ip* command do?
 
-(*) Creates user account in a system
+( ) Displays disk usage information
 
-( ) Grants file and directory ownerships in a system
+( ) Displays swap memory information
 
-( ) Prints user working directory in a system
+(*) Displays the IP address and netmasks for a network interface
 
-( ) locates user accounts in a system
+( ) Displays logical volume information
 
 
+>> What does the *route* command do?
 
->> What does *su* command do?
+(*) Displays the default route information
 
- ( ) Sets a password for a new user
+( ) Displays running processes
 
- ( ) Creates a new file
+( ) Displays all editable configuration files
 
- (*) Switches to another user
+( ) Displays all variable files
 
- ( ) Chnages hostname of a server
 
- >> What does *passwd* command do?
+>> What does the *ping* command do?
 
- (*) Sets/changes a password for a new/existing user
+( ) Checks the running processes
 
- ( ) Sets/changes a password for a new/existing application
+(*) Checks the network connectivity between client/host and server/host
 
- ( ) Sets/changes a password for a new/existing utility tool
+( ) Checks the disk usage information
 
- ( ) Sets/changes a password  for all new tools upon reboot
- 
+( ) Checks and synchronize network date
+
+### **Command Line Exercise**
+- Check the IP address and netmask information of your system
+
+- Check the default route information of your system
+
+- Ping `www.google.com` from your system to see if you can access google servers from your terminal. Make sure you define the number of packets to send to the google server
