@@ -6,7 +6,7 @@ su testing
 
 ls -al
 
-touch newfile
+touch newfile && vi newfile
 
 rm newfile
 

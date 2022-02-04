@@ -42,7 +42,7 @@
 
 - List the content of the home folder
 
-- Create a file
+- Create a file and input content into the file
 
 - Delete the file
 
