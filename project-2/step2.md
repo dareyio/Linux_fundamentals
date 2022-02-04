@@ -42,7 +42,7 @@
 
 - List the content of the home folder
 
-- Create a file and input content into the file
+- Create and input content into a file right on the command line using redirection
 
 - Delete the file
 

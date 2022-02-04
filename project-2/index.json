@@ -7,7 +7,8 @@
       "steps": [
         {
           "title": "Step 1",
-          "text": "step1.md"
+          "text": "step1.md",
+          "background": "step1.sh"
         },
         {
           "title": "Step 2",
@@ -16,21 +17,8 @@
         },
         {
           "title": "Step 3",
-          "text": "step3.md"
-        },
-        {
-          "title": "Step 4",
-          "text": "step4.md",
-          "background": "step4.sh"
-        },
-        {
-          "title": "Step 5",
-          "text": "step5.md"
-        },
-        {
-          "title": "Step 6",
-          "text": "step6.md",
-          "background": "step6.sh"
+          "text": "step3.md",
+          "background": "step3.sh"
         }
       ],
       "intro": {

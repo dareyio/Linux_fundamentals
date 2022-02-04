@@ -6,8 +6,8 @@ su testing
 
 ls -al
 
-touch newfile && vi newfile
+echo "This is strictly for learnig purposes" >> README.md
 
-rm newfile
+rm README.md
 
 exit
