@@ -1,5 +1,7 @@
->> Which of these is the package manager for Debian distributions of Linux? <<
-( ) pull
-(*) apt
-( ) yum
-( ) get
+# Disk Management
+
+>> Is LVM  a file system? <<
+=== No
+
+>> What command is used for checking for available partitions on your instance? <<
+=== lvmdiskscan

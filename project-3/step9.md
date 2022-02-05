@@ -1,5 +1,5 @@
->> To add physical volumes to a volume group, what command would you use? <<
-( ) lvcreate
+>> To create logical volumes, what command would you use? <<
 ( ) pvcreate
-(*) vgcreate
 ( ) lvmdiskscan
+(*) lvcreate
+( ) vgcreate

@@ -1,4 +1,2 @@
-# Disk Management
-
->> What command is used for checking for available partitions on your instance? <<
-=== lvmdiskscan
+>> How would you verfiy that you have successfully created a physical volume? <<
+=== pvs

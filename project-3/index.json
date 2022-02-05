@@ -8,12 +8,12 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "hint": "hint1.sh"
+        "hint": "hint1.sh",
+        "background": "step2.sh"
       },
       {
         "title": "Step 2",
-        "text": "step2.md",
-        "background": "step2.sh"
+        "text": "step2.md"
       },
       {
         "title": "Step 3",
@@ -23,7 +23,6 @@
       {
         "title": "Step 4",
         "text": "step4.md",
-        "verfiy": "verify4.sh",
         "hint": "hint4.sh"
       },
       {
@@ -50,14 +49,6 @@
       {
         "title": "Step 10",
         "text": "step10.md"
-      },
-      {
-        "title": "Step 11",
-        "text": "step11.md"
-      },
-      {
-        "title": "Step 12",
-        "text": "step12.md"
       }
     ],
     "intro": {

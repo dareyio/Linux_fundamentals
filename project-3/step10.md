@@ -1,2 +1,2 @@
->> How would you verfiy that you have successfully created a volume group? <<
-=== vgs
+>> How would you verfiy that you have successfully created a logical volume? <<
+=== lvs
