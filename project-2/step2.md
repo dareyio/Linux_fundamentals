@@ -1,28 +1,13 @@
-# System Control
-### **su** command
-This command is used to switch to another user account without login out of the one you are in.
+- Create a command shortcut that lists contents of a folder
 
-The syntax is
+- Remove the command shortcut
 
-`su <user>`
+- List the last 1,000 commands you have run
 
-### **passwd** command
-This command is used to set a password for a newly created user or to changes an already existing user's password. Any user can run this command to change their own password. Only root user can use it to change someone else's. 
+- Set an environment variable 
 
-The syntax is 
+- Print the value of the environment variable you just set
 
-`passwd <user>`
-
-e.g.
-
-Let assume we have user called `practice`. To change its passsword, we run the command : `passwd practice`
-
-
-### **Side-Self Practice**
-We will create a user, set its password and then change its password
-
-
-
-
+- Print the resource use of your server overtime
 
 

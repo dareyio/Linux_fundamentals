@@ -1,13 +1,14 @@
 {
-  "title": "learn-linux-command",
-  "description": "to get familiar with linux projects",
+  "title": "Project 1",
+  "description": "This scenario contains tasks that will increase your familiarity with some basic but essential linux commands.",
   "difficulty": "Beginner",
-  "time": "1 hour",
+  "time": "30 minutes",
   "details": {
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "background": "step2.sh"
       },
       {
         "title": "Step 2",

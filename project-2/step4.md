@@ -1,8 +1,11 @@
-Syntax for creating a new user is `useradd <new_user>`
+- Create a user called testing
 
-`useradd testing` {{execute}}
+- Set the password of the new user
+
+- Login to the terminal using the new user account credentials
+
+- List the content of the home folder
+
+- Exit from the user account
 
 
-
-
-***Note: Use `sudo` at the start of your command if you get an error message below:***

@@ -1,44 +1,47 @@
 # Built-in Shell Commands
-### **alias** command
-The ***alias*** command is used to create or list command shortcuts.
-Click on the button below to copy and then paste in the terminal to execute (press q to exit out of the description).
 
-`alias l="ls -al"`{{execute}}
+>> What does *alias* command do? <<
 
-You can also try commands on your own in the terminal
+(*) Creates or list command shortcuts
 
-### **unalias** command
-Removes command shortcuts
+( ) Tells the instance to diagnose connection problems
 
-`unalias l`{{execute}}
+( ) List all directories and files
 
-### **history** command
-Lists the last 1,000 commands you have run
+( ) Changes ownership of files and directories
 
-`history`{{execute}}
 
-### **export** command
-The ***export*** command is used to set an environment variable so as to be remembered when referenced. When you are told to set an environment variable, create the variable and then use this command so that the variable will be remembered properly.
+>> What does *unalias* command do? <<
 
-`export AWS_DEFAULT_REGION=us-east-1`{{execute}}
+( ) Restores ownership of files and directories
 
-***Note: to display the value of the variable set, use `echo` command. The `echo` command is used to display line of text/string that are passed as an argument. The syntax for `echo` command to display the value of variable is***
+(*) Removes command shortcuts
 
-***`echo ${name_of_variable}`***
+( ) Displays information about managed virtual machines
 
-e.g
+( ) Lists the commands you have run
 
-`echo ${AWS_DEFAULT_REGION}` {{execute}}
 
-### **env** command
-The `env` command lists your current environment variables and their settings
 
-`env`{{execute}}
 
-***Note: For more about these commands and what arguments to use, the syntax is***
+>> What does *history* command do? <<
 
-***`man <command>`***
+( ) Redirects output into a file
 
-***e.g.***
+( ) Copies block of code into a file
 
-***`man ls`*** {{execute}}
+(*) Lists the last 1,000 commands you have run
+
+( ) Lists current environment variables
+
+
+>> What does *export* command do? <<
+
+(*) Set an environment variable so as to be remembered when referenced
+
+( ) Lists current environment variables and their settings
+
+( ) Prints the values of environment variables
+
+( ) Sends files to another remote server
+
