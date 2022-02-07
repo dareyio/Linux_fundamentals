@@ -1,13 +1,49 @@
-- Create a command shortcut that lists contents of a folder
+# System Control
 
-- Remove the command shortcut
+>> What does *useradd* command do?
 
-- List the last 1,000 commands you have run
+(*) Creates user account in a system
 
-- Set an environment variable 
+( ) Grants file and directory ownerships in a system
 
-- Print the value of the environment variable you just set
+( ) Prints user working directory in a system
 
-- Print the resource use of your server overtime
+( ) locates user accounts in a system
 
 
+
+>> What does *su* command do?
+
+ ( ) Sets a password for a new user
+
+ ( ) Creates a new file
+
+ (*) Switches to another user
+
+ ( ) Chnages hostname of a server
+
+ >> What does *passwd* command do?
+
+ (*) Sets/changes a password for a new/existing user
+
+ ( ) Sets/changes a password for a new/existing application
+
+ ( ) Sets/changes a password for a new/existing utility tool
+
+ ( ) Sets/changes a password  for all new tools upon reboot
+
+### **Command Line Exercise**
+ 
+- Create a user called testing
+
+- Set the password of the new user
+
+- Login to the terminal using the new user account credentials
+
+- List the content of the home folder
+
+- Create and input content into a file right on the command line using redirection
+
+- Delete the file
+
+- Exit from the user account
