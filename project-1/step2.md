@@ -40,7 +40,7 @@ Answer: The **touch** command is used to create an empty file
   
 Answer: To display all the files in the current directory and its subdirectories including the hidden files, pass the -aR flag to ls.  
   
->>8. Which of the following sign represents the user home directory?<<
+>>8. Which sign represents the user home directory?<<
 === ~
   
 Answer: The **~** sign indicates the current user's home directory  
