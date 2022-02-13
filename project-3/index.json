@@ -8,7 +8,6 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "hint": "hint1.sh",
         "background": "step2.sh"
       },
       {
@@ -17,18 +16,15 @@
       },
       {
         "title": "Step 3",
-        "text": "step3.md",
-        "verify": "verify3.sh"
+        "text": "step3.md"
       },
       {
         "title": "Step 4",
-        "text": "step4.md",
-        "hint": "hint4.sh"
+        "text": "step4.md"
       },
       {
         "title": "Step 5",
-        "text": "step5.md",
-        "hint": "hint5.sh"
+        "text": "step5.md"
       }
     ],
     "intro": {

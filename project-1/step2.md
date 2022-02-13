@@ -32,11 +32,12 @@ Answer: Hidden files are those files whose names start with a dot (**.**)
   
 Answer: The **touch** command is used to create an empty file  
   
->>7. Which of the following commands will display all the files in your current directory and its subdirectories including the hidden files? <<
-(*) ls -aR
-( ) ls -a
-( ) ls -l
-( ) ls -R
+>>7. Run the following commands and note the difference in their output<<
+- ll
+- ls -latr
+- ls -la
+- ls -l
+- ls -1
   
 Answer: To display all the files in the current directory and its subdirectories including the hidden files, pass the -aR flag to ls.  
   

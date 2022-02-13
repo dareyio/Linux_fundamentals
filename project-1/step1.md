@@ -1,4 +1,4 @@
->>1. Watch this video to understsnd the various linux distributions<<
+>>1. Watch this video to understsnd the various linux distributions<< #Include video
 
 >> 2. What does the man command do? <<  
 (*) Shows reference manuals of installed commands  
@@ -17,9 +17,9 @@ Answer: Shows reference manuals of installed commands
 Answer: Displays one-line descriptions of commands   
 
 >> 4. How would you quickly get information on a command? <<  
-( ) Use the **help**  command
-(*) Use the **man**  command
-( ) Use the **which** command
+( ) Use the *help*  command
+(*) Use the *man*  command
+( ) Use the *which* command
 ( ) Browse the internet
   
 Answer: Use the **man**  command  

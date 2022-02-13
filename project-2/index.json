@@ -7,18 +7,20 @@
       "steps": [
         {
           "title": "Step 1",
-          "text": "step1.md",
-          "background": "step1.sh"
+          "text": "step1.md"
         },
         {
           "title": "Step 2",
-          "text": "step2.md",
-          "background": "step2.sh"
+          "text": "step2.md"
         },
         {
           "title": "Step 3",
-          "text": "step3.md",
-          "background": "step3.sh"
+          "text": "step3.md"
+        },
+        {
+          "title": "Step 3",
+          "text": "step4.md",
+          "background": "step4.sh"
         }
       ],
       "intro": {

@@ -6,7 +6,7 @@
 
 Use the manual page on the terminal to read more about the **ssh** and **scp** commands.
 
-Generate ssh keys of type **RSA**  using the command below - 
+Generate ssh keys of type **RSA**  using the command below
 
 `ssh-keygen -t rsa`{{execute}}
 

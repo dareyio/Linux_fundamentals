@@ -1,34 +1,35 @@
->> What does *alias* command do? <<
-(*) Creates or list command shortcuts
+>>1. What does **alias** command do? <<
 ( ) Tells the instance to diagnose connection problems
 ( ) List all directories and files
 ( ) Changes ownership of files and directories
+(*) Creates or list command shortcuts
 
->> What does *unalias* command do? <<
+>>2. What does **unalias** command do? <<
 ( ) Restores ownership of files and directories
 (*) Removes command shortcuts
 ( ) Displays information about managed virtual machines
 ( ) Lists the commands you have run
 
->> What does *history* command do? <<
+>>3. What does **history** command do? <<
 ( ) Redirects output into a file
 ( ) Copies block of code into a file
 (*) Lists the last 1,000 commands you have run
 ( ) Lists current environment variables
 
->> Display the history of all the commands you have executed<<
+>>4. Display the history of all the commands you have executed<<
 
->> What does *export* command do? <<
+>>5. What does **export** command do? <<
 (*) Sets an environment variable for the current terminal session to reference when needed
 ( ) Lists current environment variables and their settings
 ( ) Prints the values of environment variables
 ( ) Sends files to another remote server
 
-### **Command Line Exercise**
-- Create a command shortcut that lists contents of a folder
-- Execute the command shortcut
-- Remove the command shortcut
-- List the last 1,000 commands you have run
-- Set an environment variable 
-- Print the value of the environment variable you just set
-- Print the resource use of your server overtime
+>>6. Create an alias that does the same function as **ls -latr**<<
+
+>>7. Delete the alias<<
+
+>>8. Set an environment variable, this can be anything you wish<<
+
+>>9. Print the value of the environment variable you just set<<
+
+>>10. Delete the environment variable you just created<<

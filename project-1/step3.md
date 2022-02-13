@@ -1,22 +1,22 @@
-1. Change back to the previous directory and copy the clara file to the pbl directory
+>>1. Change back to the previous directory and copy the clara file to the pbl directory<<
    
-Answer: To copy a file, use the **cp** command `{cp clara pbl}`  
+Answer: To copy a file, use the **cp** command `cp clara pbl`  
   
-2. Move the allen file to the pbl directory. 
+>>2. Move the allen file to the pbl directory. <<
   
-Answer: To move a file, use the **mv** command `{mv allen pbl/allen}`  
+Answer: To move a file, use the **mv** command `mv allen pbl/allen`  
 
-3. Rename birdie file to birds
+>>3. Rename birdie file to birds<<
   
-Answer: To rename a file, the **mv** command is also used `{mv birdie birds}`  
+Answer: To rename a file, the **mv** command is also used `mv birdie birds`  
   
-4. Delete the birds file
+>>4. Delete the birds file<<
   
-Answer: To delete a file, use the **rm** command `{rm birds}`  
+Answer: To delete a file, use the **rm** command `rm birds`  
   
-5. Remove the pbl directory
+>>5. Remove the pbl directory<<
   
-Answer: To delete a directory, pass the -rf flag to the rm command. This deletes a directory and all its contents `{rm -rf pbl}`  
+Answer: To delete a directory, pass the -rf flag to the rm command. This deletes a directory and all its contents `rm -rf pbl`  
   
 >> 6. Which option with the command "rm" is required to remove a directory? <<
 === -f
@@ -32,7 +32,10 @@ Answer: To delete a directory, supply the **-f** option to the **rm** command
 Answers: The command for printing working directory is **pwd**
   
 >>8. What flag do you pass to chown to recursively change the ownership of files in a directory? <<
-=== -R
+(*) -R
+( ) -L
+( ) -Z
+( ) -F
   
 Answer: To recursively change the ownership of files in a directory, pass the **-R** flag to **chown**  
   
@@ -42,4 +45,4 @@ Answer: To recursively change the ownership of files in a directory, pass the **
 ( ) cp -r ~/test .
 (*) cp -r /tmp/test /home/jane/test
   
-Answer: `{cp -r /tmp/test /home/jane/test}` Specify the directory (without a trailing slash) and the destination to copy to.
+Answer: `cp -r /tmp/test /home/jane/test` Specify the directory (without a trailing slash) and the destination to copy to.

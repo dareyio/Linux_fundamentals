@@ -4,15 +4,18 @@
 ( ) yum
 ( ) get
 
-Use the manual page to read more about the **apt package manager** in the terminal 
+>>2. install the followiung applications and  locate the installation of the following binaries<<
+- python3
+- git
+- wget
+- apaache
+- zip
 
-On the terminal check the linux distribution you are running (You can do some research to see what command this is).
+>>3. Use the manual page to read more about the **apt package manager** in the terminal<< 
 
-Update your linux distro.
+>>4. On the terminal check the linux distribution you are running (You can do some research to see what command this is).<<
 
-Check the current version of your package manager.
-
->>Which of these is the package manager for RHEL machines?   <<
+>>5. Which of these is the package manager for RHEL machines?<<
 ( ) pull
 ( ) apt
 (*) yum

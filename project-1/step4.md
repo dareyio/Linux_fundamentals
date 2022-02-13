@@ -3,7 +3,7 @@ There is a file named dummy-doc in your current directory, check out its content
 >>1. What's the first word of the 7th line from the top in the dummy-doc file? <<
 === Darey  
   
-Answers: To get the 7th line, use the **head** command and pass in the number of lines to print seven lines `{head -n 7 dummy-doc}`  
+Answers: To get the 7th line, use the **head** command and pass in the number of lines to print seven lines `head -n 7 dummy-doc`  
   
 >>2. What is the 3rd line from the bottom in the dummy-doc file?<<  
 === PBL
@@ -35,7 +35,7 @@ Answer: **cat** command displays the contents of a file
 (*) cat > filename
 ( ) cat filename
   
-Answer: To create a file, use the `{cat > file}`. Type in the contents of the file and press in Ctrl + C when done to save.
+Answer: To create a file, use the `cat > file`. Type in the contents of the file and press in Ctrl + C when done to save.
   
 >>7. Which command will display the last lines of the text file file1?<<
 ( ) head --bottom file1
@@ -43,7 +43,7 @@ Answer: To create a file, use the `{cat > file}`. Type in the contents of the fi
 ( ) head -v file1
 (*) tail -n 1 file1
   
-Answer: To display the last line of a file, use `{tail -n 1 file1}`
+Answer: To display the last line of a file, use `tail -n 1 file1`  
   
 >>8. Which of the following key sequences will save changes made during a 'vi' editing session, and end the application? <<
 ( ) <esc>:qw
