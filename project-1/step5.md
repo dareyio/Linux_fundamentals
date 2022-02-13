@@ -1,8 +1,8 @@
 1. Change the ownership for the **darey** file to **dare** as user, and **developers** as group
   
-Answer: To change the ownership, use `{chown dare:developers darey}`
+Answer: To change the ownership, use `chown dare:developers darey`
   
-2. Create a new directory called docs, copy the dummy-doc file into this directory and change the ownership for the docs directory and its content to **dare** as user, and **developers** as group (Hint: You could pass the -R flag to chown)
+1. Create a new directory called docs, copy the dummy-doc file into this directory and change the ownership for the docs directory and its content to **dare** as user, and **developers** as group (Hint: You could pass the -R flag to chown)
   
 Answer:  
    - mkdir docs  
