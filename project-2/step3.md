@@ -1,6 +1,4 @@
-# Network
-
->> What does the *ip* command do?
+>> What does the *ip* command do?<<
 
 ( ) Displays disk usage information
 
@@ -11,7 +9,7 @@
 ( ) Displays logical volume information
 
 
->> What does the *route* command do?
+>> What does the *route* command do?<<
 
 (*) Displays the default route information
 
@@ -22,7 +20,7 @@
 ( ) Displays all variable files
 
 
->> What does the *ping* command do?
+>> What does the *ping* command do?<<
 
 ( ) Checks the running processes
 

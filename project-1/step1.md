@@ -1,4 +1,6 @@
->> 1. What does the man command do? <<  
+>>1. Watch this video to understsnd the various linux distributions<<
+
+>> 2. What does the man command do? <<  
 (*) Shows reference manuals of installed commands  
 ( ) Displays information about managed virtual machines  
 ( ) Manually grants the user permissions to use root commands  
@@ -6,7 +8,7 @@
   
 Answer: Shows reference manuals of installed commands  
   
->> 2. What does the whatis command do? <<  
+>> 3. What does the whatis command do? <<  
 ( ) Outputs system details such as hostname  
 (*) Displays one-line descriptions of commands  
 ( ) Tells the instance to diagnose connection problems
@@ -14,7 +16,7 @@ Answer: Shows reference manuals of installed commands
   
 Answer: Displays one-line descriptions of commands   
 
->> 3. How would you quickly get information on a command? <<  
+>> 4. How would you quickly get information on a command? <<  
 ( ) Use the **help**  command
 (*) Use the **man**  command
 ( ) Use the **which** command
@@ -22,7 +24,9 @@ Answer: Displays one-line descriptions of commands
   
 Answer: Use the **man**  command  
   
->>4. What is the command to determine the path of an executable file? <<
+>>5. What is the command to determine the path of an executable file? <<
 === which
   
 Answer: **which**  
+
+>>6. What is the difference between curl and wget? Use the manual page on the terminal to read more about it<<
