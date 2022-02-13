@@ -1,18 +1,18 @@
 1. Change back to the previous directory and copy the clara file to the pbl directory
    
-Answer: To copy a file, use the **cp** command `{cp clara pbl}`
+Answer: To copy a file, use the **cp** command `{cp clara pbl}`  
   
 2. Move the allen file to the pbl directory. 
   
-Answer: To move a file, use the **mv** command `{mv allen pbl/allen}`
+Answer: To move a file, use the **mv** command `{mv allen pbl/allen}`  
 
 3. Rename birdie file to birds
   
-Answer: To rename a file, the **mv** command is also used `{mv birdie birds}`
+Answer: To rename a file, the **mv** command is also used `{mv birdie birds}`  
   
 4. Delete the birds file
   
-Answer: To delete a file, use the **rm** command `{rm birds}`
+Answer: To delete a file, use the **rm** command `{rm birds}`  
   
 5. Remove the pbl directory
   
