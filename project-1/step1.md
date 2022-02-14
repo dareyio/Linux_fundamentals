@@ -1,32 +1,22 @@
->>1. Watch this video to understsnd the various linux distributions<<
+>>1. Watch this video to understand the various linux distributions. https://youtu.be/6gqLWTSz6ck<<
 
->> 2. What does the man command do? <<  
-(*) Shows reference manuals of installed commands  
-( ) Displays information about managed virtual machines  
-( ) Manually grants the user permissions to use root commands  
-( ) Helps in manipulating mounted volumes  
-  
-Answer: Shows reference manuals of installed commands  
-  
->> 3. What does the whatis command do? <<  
-( ) Outputs system details such as hostname  
-(*) Displays one-line descriptions of commands  
-( ) Tells the instance to diagnose connection problems
-( ) Gives information about the current user  
-  
-Answer: Displays one-line descriptions of commands   
+>>2. Change directory into the test folder<<
 
->> 4. How would you quickly get information on a command? <<  
-( ) Use the *help*  command
-(*) Use the *man*  command
-( ) Use the *which* command
-( ) Browse the internet
-  
-Answer: Use the **man**  command  
-  
->>5. What is the command to determine the path of an executable file? <<
-=== which
-  
-Answer: **which**  
+>>3. Create a file pbl.txt<<
 
->>6. What is the difference between curl and wget? Use the manual page on the terminal to read more about it<<
+>>4. Go back to the home folder and create a directory called test2<<
+
+>>5. From your current working directory, create a file inside test2 with a your prefrered name and extension<<
+
+`touch pbl.txt`{{copy}}
+
+>>6. From your current directory move pbl.txt to test2<<
+
+>>7. Check your current operating system<<
+
+>>8. With right package manager install the following softwares:<<
+    - git
+    - wget
+    - zip
+
+>>9. Using the right command download this webpage<<

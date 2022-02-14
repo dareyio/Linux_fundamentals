@@ -23,7 +23,7 @@ Answer: To delete a directory, pass the -rf flag to the rm command. This deletes
   
 Answer: To delete a directory, supply the **-f** option to the **rm** command  
   
->>7. What is the appreviation command for print working directory? <<
+>>7. What is the abbreviation command for print working directory? <<
 ( ) ls
 ( ) dir
 (*) pwd

@@ -1,13 +1,18 @@
->> If you were to securely connect to a Linux machine **and** also copy data from one linux machine to the other, What **commands** would you use to complete this process? <<
-[*] ssh
-[ ] ftp
-[*] scp
-[ ] rdp
+>>1. Which of these commands can't you use to download files from the web? <<
+( ) wget
+(*) grep
+( ) curl
+( ) dwnl
 
-Use the manual page on the terminal to read more about the **ssh** and **scp** commands.
+>>2. Create a directory in current directory, called `darey.io`. Navigate into it and download `https://darey.io/`<<
 
-Generate ssh keys of type **RSA**  using the command below
+>>3. What is the name of the downloaded file? <<
+=== index.html
 
-`ssh-keygen -t rsa`{{execute}}
+>>4. From the terminal, move the downloaded file to the root directory.<<
 
-In the terminal, list out the contents of the private key then go on to list the contents of the public key.
+>>5. Using the **vi** command, inspect the contents of the newly moved file.<<
+
+>>6. Edit the file by inserting or deleting anything withing the file then save it.<<
+
+>>7. Without using a text editor, display the contents of your newly edited file.<<

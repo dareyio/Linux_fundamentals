@@ -1,17 +1,34 @@
->>1. Which of these commands can't you use to download files from the web? <<
-( ) wget
-(*) grep
-( ) curl
+>> You are presented with two terminals that represent two isolated Linux machines.<<
 
->>2. In your current directory, there is a folder called `darey.io`. Navigate into it and download `http://darey.io/`<<
+>>1. Create a new user on the first machine with any name you like<<
 
->>3. What is the name of the downloaded file? <<
-=== index.html
+Answer: useradd -m -s /bin/bash darey
 
->>4. From the terminal, move the downloaded file to the root directory.<<
+>>2. Set a new password for the newly created user.<<
 
->>5. Using the **vi** command, inspect the contents of the newly moved file.<<
+Answer: passwd darey
 
->>6. Edit the file by inserting or deleting anything withing the file then save it.<<
+>>3. Grant privileges to the new user to allow them use **sudo** command.<<
 
->>7. Without using a text editor, display the contents of your newly edited file.<<
+Answer: `sudo visudo`
+        Add the following line to the end of the file: darey ALL=(ALL) NOPASSWD: ALL
+
+>>4. Follow all the steps above to create another user in the second machine (second terminal)<<
+
+>>5. In the second machine, login as the user you created.
+
+Answer: login **username**
+
+>>5. Generate an RSA SSH key, we'll use this to connect the first machine from the second. You can leave the password blank<<
+
+Answer: `ssh-keygen -t rsa`
+
+>>6. Check the generated files. **.ssh/id_rsa** and **.ssh/id_rsa.pub**<<
+
+>>7. Copy over the public key to the first machine<<
+
+Answer: ssh-copy-id darey@host01 (If you used a different username other that darey, specify that instead.)
+
+>>8. Test the SSH Connection<<
+
+Answer: ssh darey@host01 You prompt should now show darey@host01

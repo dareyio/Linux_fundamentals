@@ -1,4 +1,4 @@
->>1. Read on the differences between a volume and a partition ![here](https://www.alphr.com/volume-vs-partition/)<<
+>>1. Read on the differences between a volume and a partition here: https://www.alphr.com/volume-vs-partition/<<
 
 >>2. Which of the following tools CANNOT be used to create a partition on Linux?<<
 ( ) fdisk
@@ -11,5 +11,10 @@
 ( ) create a new partiton, format the volume using mkfs, attach the volume, mount the volume
 (*) attach the volume, create a new partition, format the partition using mkfs, mount the new partition
 
->>4. Learn the differences between traditional partitioning methods and using LVM ![here](https://www.redhat.com/sysadmin/lvm-vs-partitioning). You'll be using LVM to configure an NFS server in one of the upcoming projects.<<
+>>4. Learn the differences between traditional partitioning methods and using LVM here: https://www.redhat.com/sysadmin/lvm-vs-partitioning. You'll be using LVM to configure an NFS server in one of the upcoming projects.<<
 
+>>5. To mark a disk on your instance as a physical volume, what command would you use? <<
+( ) lvcreate
+(*) pvcreate
+( ) vgcreate
+( ) lvmdiskscan

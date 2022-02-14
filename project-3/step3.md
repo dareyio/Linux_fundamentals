@@ -1,22 +1,22 @@
->> Which of these is the package manager for Debian distributions of Linux? <<
-( ) pull
-(*) apt
-( ) yum
-( ) get
+>>1. Create 3 files on the second machine and compress them using the zip utility.<<
 
->>2. Install the followiung applications and  locate the installation of the following binaries<<
-- python3
-- git
-- wget
-- apaache
-- zip
+Answer: touch file1 file2 file3
+        zip files.zip file1 file2 file3 
 
->>3. Use the manual page to read more about the **apt package manager** in the terminal<< 
+>>2. Create a folder on the first machine called host2_files. Note: You should be logged in as the user you created in the previous step.<<
 
->>4. On the terminal check the linux distribution you are running (You can do some research to see what command this is).<<
+>>3. Copy this compressed zip file to the host2_files directory on first machine using scp.<<
 
->>5. Which of these is the package manager for RHEL machines?<<
-( ) pull
-( ) apt
-(*) yum
-( ) get
+Answer: scp files.zip darey@host01:~/host2_files/ 
+
+>> You can also copy multiple files.<<
+
+`scp file1 file3 darey@host02`{{copy}}
+
+>>4. Now repeat step 1 on the first machine. The name of the generated zip file should be host2.zip<<
+
+>>5. Create a folder on the second machine named darey_files<<
+
+>>6. Copy the host2.zip file from the first machine to the darey_files folder on second machine using scp. The scp command should be executed on the second machine.<<
+
+Answer: scp darey@host01:~/host2.zip ~/darey_files/

@@ -1,59 +1,24 @@
->>1. Read about the Linux filesystem here: https://www.javatpoint.com/linux-file-system<<  
-  
+>>1. What is the difference between curl and wget? Use the manual page on the terminal to read more about it<<
 
+>>2. Using the right command print the current user<<
 
->>2. List the contents of the current working directory. What is the name of the largest file?<<
-=== clara
-  
-Answer: File with the largest size is **clara**. You can get that by doing a long listing (ls -l)  
+>>3. Using the right command print the current working directory<<
 
->>3. What is the permission level on the file named allen? <<  
-=== 444  
-  
-Answer: The permission level on the file named allen is **444**  
-   
->>4. Create a directory called pbl. Change into the directory. Copy and paste your current working directory here: <<  
-=== /root/pbl
-  
-Answer: Current working directory is **/root/pbl** (pwd)  
+>>4. Install the apache server<<
 
->>5. What are the filenames that are preceded by a dot? <<  
-( ) System files
-( ) Critical files
-( ) Root files
-(*) Hidden files
-  
-Answer: Hidden files are those files whose names start with a dot (**.**)  
-  
->>6. Which command creates an empty file if it does not exist? <<  
-=== touch
-  
-Answer: The **touch** command is used to create an empty file  
-  
->>7. Run the following commands and note the difference in their output<<
-- ll
-- ls -latr
-- ls -la
-- ls -l
-- ls -1
-  
-Answer: To display all the files in the current directory and its subdirectories including the hidden files, pass the -aR flag to ls.  
-  
->>8. Which sign represents the user home directory?<<
-=== ~
-  
-Answer: The **~** sign indicates the current user's home directory  
-  
->>9. The top-level directory on a linux system is represented as? <<
-( ) -
-(*) /
-( ) ~
-( ) ..
-  
-Answer: The top level directory on a linux system is represented by **/**
-  
->>10. Linux file names are case sensitive. True or false? <<
-(*) True
-( ) False
-  
-Answer: **True.** File names in Linx are case sensitive
+>>5. From your current directory, list the content of /var/log<<
+
+>>6. Run the following commands and note the differences in their outputs<<
+    - ll
+    - ls -latr
+    - ls -la
+    - ls -l
+    - ls -1
+
+>>7. From your current directory, create a folder called copy-test<<
+
+>>8. Change directory into the folder, create 5 different files. Using the vi editor, open the files and paste some contents into it<<
+
+>>9. Use the copy command to recursively copy all the contents into a new folder called copied-content (Hint you should create this folder first)<<
+
+>>10. Lastly create this directory copy-test/copy-test2/final-folder<<

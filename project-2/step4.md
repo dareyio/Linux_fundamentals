@@ -1,4 +1,4 @@
->>1. What's the difference between archiving and compressing? You can read more on that ![here](https://www.linuxjournal.com/article/9370)<<
+>>1. What's the difference between archiving and compressing? You can read more on that here: https://www.linuxjournal.com/article/9370<<
 
 >>2. Download the wordpress archive into your terminal (https://wordpress.org/latest.tar.gz)<<
 
