@@ -1,18 +1,15 @@
->> To add physical volumes to a volume group, what command would you use? <<
-( ) lvcreate
-( ) pvcreate
-(*) vgcreate
-( ) lvmdiskscan
+>>1. Read on the differences between a volume and a partition ![here](https://www.alphr.com/volume-vs-partition/)<<
 
-In the terminal, verfiy if there is a volume group present
+>>2. Which of the following tools CANNOT be used to create a partition on Linux?<<
+( ) fdisk
+( ) gdisk
+(*) mount
+( ) parted
 
->> What is the name of the volume group? <<
-=== primary
+>>3. What are the steps to following in creating and mounting a new partition from a new volume?<<
+( ) attach the volume, format the volume using mkfs, create a new partition, mount the partition
+( ) create a new partiton, format the volume using mkfs, attach the volume, mount the volume
+(*) attach the volume, create a new partition, format the partition using mkfs, mount the new partition
 
->> To create logical volumes, what command would you use? <<
-( ) pvcreate
-( ) lvmdiskscan
-(*) lvcreate
-( ) vgcreate
+>>4. Learn the differences between traditional partitioning methods and using LVM ![here](https://www.redhat.com/sysadmin/lvm-vs-partitioning). You'll be using LVM to configure an NFS server in one of the upcoming projects.<<
 
-In the terminal, verfiy if there is a logical volume present

@@ -1,4 +1,4 @@
->>1. Watch this video to understsnd the various linux distributions<< #Include video
+>>1. Watch this video to understsnd the various linux distributions<<
 
 >> 2. What does the man command do? <<  
 (*) Shows reference manuals of installed commands  

@@ -4,7 +4,7 @@
 ( ) yum
 ( ) get
 
->>2. install the followiung applications and  locate the installation of the following binaries<<
+>>2. Install the followiung applications and  locate the installation of the following binaries<<
 - python3
 - git
 - wget
