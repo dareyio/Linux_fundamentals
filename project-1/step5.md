@@ -24,9 +24,7 @@ Answer: None of the above. The permission mode **800** would return an error
   
 Answer: To allow execution permission on myapp, add the permission to all the users. `chmod +x /usr/local/bin/myapp`
   
-5.  Look for a file named **contents**, display it's content to be able to complete this step.  
-  
->> Text: <<
+>>5.  Look for a file named **contents**, display it's content to be able to complete this step. Enter the text below<<
 === awesome!
   
 Answer: Use the **find** command to locate the required file `find . -name contents`. The expected text is **awesome!**  
