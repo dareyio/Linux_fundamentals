@@ -1,5 +1,5 @@
 >>1. Read about the Linux filesystem here: https://www.javatpoint.com/linux-file-system<<
-
+  
 >>2. List the contents of the current working directory. What is the name of the largest file?<<  
 === clara
   
