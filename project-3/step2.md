@@ -1,32 +1,22 @@
-1. Create a new user on the first machine with any name you like
-  
-Answer: useradd -m -s /bin/bash darey
-  
-2. Set a new password for the newly created user.
-  
-Answer: passwd darey
+>>1. Create 3 files on the second machine and compress them using the zip utility.<<
 
-3. Grant privileges to the new user to allow them use **sudo** command.
+Answer: touch file1 file2 file3
+        zip files.zip file1 file2 file3 
 
-Answer: `sudo visudo`
-        Add the following line to the end of the file: darey ALL=(ALL) NOPASSWD: ALL
+>>2. Create a folder on the first machine called host2_files. Note: You should be logged in as the user you created in the previous step.<<
 
-4. Follow all the steps above to create another user in the second machine (second terminal)
+>>3. Copy this compressed zip file to the host2_files directory on first machine using scp.<<
 
-5. In the second machine, login as the user you created.
+Answer: scp files.zip darey@host01:~/host2_files/ 
 
-Answer: login **username**
+>> You can also copy multiple files.<<
 
-6. Generate an RSA SSH key, we'll use this to connect the first machine from the second. You can leave the password blank
+`scp file1 file3 darey@host02`{{copy}}
 
-Answer: `ssh-keygen -t rsa`
+>>4. Now repeat step 1 on the first machine. The name of the generated zip file should be host2.zip<<
 
-7. Check the generated files. **.ssh/id_rsa** and **.ssh/id_rsa.pub**
+>>5. Create a folder on the second machine named darey_files<<
 
-7. Copy over the public key to the first machine
+>>6. Copy the host2.zip file from the first machine to the darey_files folder on second machine using scp. The scp command should be executed on the second machine.<<
 
-Answer: ssh-copy-id darey@host01 (If you used a different username other that darey, specify that instead.)
-
-8. Test the SSH Connection
-
-Answer: ssh darey@host01 You prompt should now show darey@host01
+Answer: scp darey@host01:~/host2.zip ~/darey_files/

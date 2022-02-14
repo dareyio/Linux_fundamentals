@@ -8,8 +8,6 @@
 
 5. From your current working directory, create a file inside test2 with a your prefrered name and extension
 
-`touch pbl.txt`{{copy}}
-
 6. From your current directory move pbl.txt to test2
 
 7. Check your current operating system
