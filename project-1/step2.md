@@ -1,6 +1,8 @@
->>1. Read about the Linux filesystem here: https://www.javatpoint.com/linux-file-system<<
+>>1. Read about the Linux filesystem here: https://www.javatpoint.com/linux-file-system<<  
   
->>2. List the contents of the current working directory. What is the name of the largest file?<<  
+
+
+>>2. List the contents of the current working directory. What is the name of the largest file?<<
 === clara
   
 Answer: File with the largest size is **clara**. You can get that by doing a long listing (ls -l)  
